@@ -7,9 +7,9 @@ h1 {
     text-align: center;
     background-color:burlywood;
     height: 80px;
-    color: green;
+    color: darkgreen;
     padding-top: 10px;
-    text-shadow:1px 1px 2px red;
+    
    
 }
 
@@ -26,9 +26,9 @@ nav {
 }
 a{
     text-decoration: none;
-    color: green;
+    color: darkgreen;
     padding-left: 25px;
-    text-shadow: 1px 1px 1px red;
+    
 }
 
 img:hover {

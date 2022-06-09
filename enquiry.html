@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry page</title>
+    <style>
+        table {
+            border: 5px solid green;
+            margin-top:-130px;
+            box-shadow: 0px 0px 40px black;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <form>
+        <center>
+
+            <table style="background-color: bisque;" cellspacing="20px" cellpadding="5px">
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                        <h3>Enquiry Form</h3>
+                    </td>
+                </tr>
+                <br><br><br><br>
+                <tr>
+
+                    <th><label for="n ">Name:</label></th>
+                    <td> <input type="text" id="n" name="n">
+
+                    </td>
+                    <br><br>
+                </tr>
+                <br><br>
+                <tr>
+                    <th><label for="email">Email:</label></th>
+                    <td><input type="text" id="email" name="email"></td>
+
+                </tr>
+                <br><br>
+                <tr>
+                    <th><label for="p">Phone No:</label></th>
+                    <td><input type="tel" id="p" name="p"></td>
+
+                </tr>
+                <br><br>
+                <tr>
+                    <th><label for="a">Address</label></th>
+                    <td><input type="text" id="a" name="a" nonvalidate></td>
+
+                </tr>
+                <br><br>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td> <input type="submit" onclick="fun()" value="Call Me Back" style="border: 1px solid black ; color: green;"></td>
+                </tr>
+
+
+            </table>
+        </center>
+        <br><br>
+
+    </form>
+<script>
+function fun()
+{
+    alert("We Will reach You Soon");
+}
+
+</script>
+</body>
+
+</html>

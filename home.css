@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    background-color:burlywood;
+    height: 80px;
+    color: green;
+    padding-top: 10px;
+    text-shadow:1px 1px 2px red;
+   
+}
+
+nav {
+    
+    background-color:burlywood;
+    height: 50px;
+    margin: 19px 0px 50px 0px;
+    padding-top: 15px;
+    font-size:larger;
+    position: sticky;
+    top: 0px;
+   
+}
+a{
+    text-decoration: none;
+    color: green;
+    padding-left: 25px;
+    text-shadow: 1px 1px 1px red;
+}
+
+img:hover {
+    border: 2px solid black;
+    box-shadow: 0px 0px 50px darkgreen;
+}
+
+article {
+    font-style: italic;
+    font-size: medium; 
+    margin-top: 8px;  
+    color: darkgreen;  
+}
+
+footer {
+    background-color: lightgreen;
+    color: black;
+    margin-top: 5px;
+}
+
+body {
+    background-color: honeydew;
+}
